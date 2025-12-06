@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 - Analyze daily **open**, **close**, and **volume** data for **503 S&P 500 companies** (Jan–Jun 2025)
 - Engineer performance metrics:
   - Daily & cumulative returns  
@@ -16,7 +16,7 @@
 
 ---
 
-## 🧮 Methodology
+##  Methodology
 
 | Step | Description |
 |------|-------------|
@@ -27,8 +27,8 @@
 
 ---
 
-## 🔍 Key Preliminary Insights
-- 🚀 Performance leadership was **highly concentrated** in a small set of stocks  
-- 🧠 **Information Technology sector** dominated index gains  
-- 💸 Higher **dollar volume** correlated with greater market impact  
-- 📉 Volatility contributed only **weak predictive power**, consistent with short-term market noise  
+##  Key Preliminary Insights
+- Performance leadership was **highly concentrated** in a small set of stocks  
+- **Information Technology sector** dominated index gains  
+- Higher **dollar volume** correlated with greater market impact  
+- Volatility contributed only **weak predictive power**, consistent with short-term market noise  
