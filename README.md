@@ -1,6 +1,34 @@
 # Data Procesing
-Research question: Which companies and sectors contributed most to the S&P 500’s overall performance during the first half of 2025, and how did their volatility and trading activity influence these movements?
-Using daily opening, closing, and volume data for all 503 S&P 500 constituents from January to June 2025, we will engineer key performance metrics including daily returns, cumulative returns, volatility, and average dollar volume.
-To estimate each company’s influence on the index, I will construct a weighted contribution metric by multiplying cumulative return with average dollar volume. This serves as a practical proxy for market impact, reflecting both price appreciation and the level of investor capital involved. Company-level analysis then highlights the top contributors, revealing a strong concentration of performance leadership within the Information Technology sector.
-Next, a linear regression model is applied to explain differences in cumulative returns based on risk (volatility), liquidity (dollar volume), and sector membership. Although the predictive power is limited—consistent with the noisy nature of short-term equity returns—the model provides interpretability into the factors that supported outperformance.
-Ultimately, this study aims to provide a clear, data-driven narrative of who moved the market, which sectors led, and why tech dominance shaped S&P 500 gains during this period.
+**Research Question**  
+> *Which companies and sectors contributed most to the S&P 500’s overall performance during the first half of 2025, and how did volatility and trading activity influence these movements?*
+
+---
+
+## 🎯 Objectives
+- Analyze daily **open**, **close**, and **volume** data for **503 S&P 500 companies** (Jan–Jun 2025)
+- Engineer performance metrics:
+  - Daily & cumulative returns  
+  - Volatility  
+  - Average dollar volume  
+- Estimate market impact through a **weighted contribution metric**
+- Identify top-performing sectors and companies
+- Understand whether volatility and liquidity contributed to outperformance
+
+---
+
+## 🧮 Methodology
+
+| Step | Description |
+|------|-------------|
+| **Data Processing** | Cleaning & aggregating the dataset |
+| **Feature Engineering** | Compute returns, volatility, and liquidity |
+| **Impact Estimation** | Weighted contribution = *Cumulative Return × Avg. Dollar Volume* |
+| **Modeling** | Linear regression on return drivers (risk, liquidity, sector) |
+
+---
+
+## 🔍 Key Preliminary Insights
+- 🚀 Performance leadership was **highly concentrated** in a small set of stocks  
+- 🧠 **Information Technology sector** dominated index gains  
+- 💸 Higher **dollar volume** correlated with greater market impact  
+- 📉 Volatility contributed only **weak predictive power**, consistent with short-term market noise  
